@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমাদের ছাত্র সংগঠন</title>
+    <style>
+        /* ওয়েবসাইটের সাধারণ ডিজাইন (CSS) */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        
+        /* হেডার ও লোগো অংশ */
+        header {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* মেনুবার বা নেভিগেশন */
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+            border-radius: 5px;
+        }
+
+        /* মূল কন্টেন্ট এরিয়া */
+        .container {
+            width: 85%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* ওয়েলকাম বা হিরো সেকশন */
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .hero h2 {
+            color: #0056b3;
+        }
+
+        /* সেকশন টাইটেল */
+        .section-title {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* ইভেন্ট বা কাজের তালিকা (Cards) */
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            text-align: center;
+        }
+        .card h3 {
+            color: #333;
+        }
+
+        /* ফুটার */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>আমাদের ছাত্র সংগঠন</h1>
+        <p>শিক্ষার্থীদের অধিকার ও উন্নয়নে আমরা বদ্ধপরিকর</p>
+    </header>
+
+    <nav>
+        <a href="#home">হোম</a>
+        <a href="#about">আমাদের সম্পর্কে</a>
+        <a href="#events">কার্যক্রম</a>
+        <a href="#contact">যোগাযোগ</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="home" class="hero">
+            <h2>স্বাগতম আমাদের ওয়েবসাইটে!</h2>
+            <p>আমরা শিক্ষার্থীদের জন্য একটি সুন্দর এবং শিক্ষার্থীবান্ধব পরিবেশ তৈরি করতে কাজ করে যাচ্ছি। আমাদের সাথে যুক্ত হোন এবং পরিবর্তন আনুন।</p>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">আমাদের সম্পর্কে</h2>
+            <p>আমাদের সংগঠনটি প্রতিষ্ঠিত হয়েছিল শিক্ষার্থীদের অধিকার আদায়, মেধার বিকাশ এবং সামাজিক সচেতনতা বৃদ্ধির লক্ষ্যে। আমরা বিশ্বাস করি একতা ও সহযোগিতার মাধ্যমে যেকোনো অসাধ্য সাধন করা সম্ভব।</p>
+        </section>
+
+        <br>
+
+        <section id="events">
+            <h2 class="section-title">আমাদের সাম্প্রতিক কার্যক্রম</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>ব্লাড ডোনেশন ক্যাম্প</h3>
+                    <p>গত মাসে আমরা ক্যাম্পাসে একটি সফল রক্তদান কর্মসূচির আয়োজন করেছি।</p>
+                </div>
+                <div class="card">
+                    <h3>ক্যারিয়ার সেমিনার</h3>
+                    <p>শিক্ষার্থীদের ভবিষ্যতের সঠিক দিকনির্দেশনা দিতে ক্যারিয়ার আড্ডার আয়োজন।</p>
+                </div>
+                <div class="card">
+                    <h3>বৃক্ষরোপণ কর্মসূচি</h3>
+                    <p>সবুজ ক্যাম্পাস গড়তে আমাদের ১০০টি বৃক্ষরোপণ উদ্যোগ।</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer id="contact">
+        <p>যোগাযোগ: ইমেইল - info@studentsorg.com | মোবাইল - +880 1234-567890</p>
+        <p>&copy; ২০২৬ আমাদের ছাত্র সংগঠন। সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+</body>
+</html>
